@@ -1,0 +1,350 @@
+
+.player_bg{
+    background: url(../images/Player-Behind.png) no-repeat;
+}
+.rank{
+    position: absolute;
+    left: 19px;
+    top: 7px;
+    
+}
+.match{
+    position: absolute;
+    left: 19px;
+    top: 90px;
+}
+.rank-label{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+}
+.rank-number{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+.match-label{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+}
+.match-number{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+img.share-img {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    width: 85px;
+}
+img.ih-p1-ab {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    width: 20px;
+}
+.player_bg h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.card-img-top{
+    margin: -100px auto 0;
+}
+.player-name{
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+img.rank-flag-img{
+    width: 29px;
+}
+.nationality {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+.nationality .flag {
+    position: absolute;
+    width: 30px;
+    left: 0;
+    top: 0;
+}
+
+select {
+    border:2px solid #5c6664!important;
+    background: var(--background-grey);
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#000;
+    cursor:pointer;
+    font-weight: 700;
+
+    font-size: 1em;
+   
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: relative;
+    display: flex;
+    height: 3em;
+    line-height: 3;
+    overflow: hidden;
+    
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: var(--background-grey);
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+    border: 2px solid #5c6664;
+ }
+ .about-us-banner{
+    background: url(../images/about-us/about-us.png) no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+ }
+ .about-title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+     line-height: 45px;
+    margin-bottom: 15px;
+    text-underline-offset: 15px;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+    text-decoration-color: #f6a440;
+   
+ }
+ .about-title::before{
+    border-bottom: 2px solid #f6a440;
+ }
+ #news-slider{
+    margin-top: 80px;
+}
+.flagimg-owl{
+    width: 100px;
+}
+.owl-controls .owl-buttons{
+    text-align:center;
+    margin-top:20px;
+}
+.owl-controls .owl-buttons .owl-prev{
+    position: absolute;
+    top:45%;
+    left:-85px;
+}
+.owl-controls .owl-buttons .owl-next{
+    position: absolute;
+    top: 45%;
+    right: -85px;
+    
+}
+.owl-next img{
+    width: 80px;
+}
+.owl-prev img{
+    width: 80px;
+}
+
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+}
+
+
+
+/* raning-detail */
+
+.player-detail-body{
+    background-color: #212529;
+    padding: 7px;
+}
+.player-detail-name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pd-runs{
+    color:#f6a440;
+	font: normal 4em arial;
+	text-shadow: 3px 3px #000,
+				 -3px -3px #000,
+				 3px -3px #000,
+				 -3px 3px #000;
+}
+.pd-wickets{
+    color:#f6a440;
+	font: normal 35px arial;
+	text-shadow: 3px 3px #000,
+				 -3px -3px #000,
+				 3px -3px #000,
+				 -3px 3px #000;
+}
+.player-detail-col9{
+    background: url(../images/subscribe_bg.jpg) no-repeat;
+    padding: 44px 0;
+    background-size: cover;
+    background-position: center;
+}
+.first-last-match{
+    background-color: #5f6160;
+    color: #fff;
+    padding: 4px;
+}
+.t20ranking{
+    
+    border: 1px solid #f6a440;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 500;
+    color: #f6a440;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 0px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.btn-know-more {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 3px 15px 3px 15px;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 13px;
+    left: 30%;
+    bottom: -3%;
+}
+a.btn-know-more:hover{
+    color: #fff;
+}
+.t20i-batting{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+.t20i{
+    background-color: #f6a440;
+    color: #000;
+    padding: 3px;
+}
+.pd-lgrank-logo{
+    position: absolute;
+    left: 9px;
+    top: 15px;
+    width: 85px;
+}
+.pd-flag{
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    width: 80px;
+}
+.pd-rank-label{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+.pd-rank-number{
+    color: #f6a440;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pd-text{
+    font-size: 14px;
+    text-align: center;
+}
+.pd-rank-date{
+    color: #5c6664;
+    font-size: 14px;
+    font-weight: bold;
+}
+.player-detail-scroll .card{border-radius: 25px;}
+.player-detail-scroll .card p{margin: 0;}
+.player-detail-scroll {
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 30px;
+}
+.player-detail-scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: var(--white);
+  
+  
+}
+
+.player-detail-scroll::-webkit-scrollbar
+{
+	width: 12px;
+  background-color: #F5F5F5;
+}
+
+.player-detail-scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #f6a440;
+}
+.read-more{
+    background-color: #f6a440;
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 991px){
+    .player-detail-scroll{
+        height: 276px;
+    }
+    .t20ranking{
+        bottom: 30px;
+    }
+}
+@media(max-width: 767px){
+    .player-detail-scroll{
+        height: 276px;
+    }
+    .t20ranking{
+        bottom: 30px;
+    }
+}
