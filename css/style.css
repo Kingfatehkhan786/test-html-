@@ -91,7 +91,7 @@ a.btn-read-more:hover{
 .yellow_bg_scroll .card p{margin: 0;}
 .sub_heading{font-size: 50px;}
 .yellow_bg_scroll {
-    height: 575px;
+    height: 604px;
     overflow-y: scroll;
 }
 .yellow_bg_scroll::-webkit-scrollbar-track

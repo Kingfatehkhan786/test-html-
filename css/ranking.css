@@ -187,7 +187,7 @@ select {
 }
 .pd-runs{
     color:#f6a440;
-	font: normal 3.8em arial;
+	font: normal 4em arial;
 	text-shadow: 3px 3px #000,
 				 -3px -3px #000,
 				 3px -3px #000,
@@ -265,13 +265,13 @@ a.btn-know-more:hover{
     position: absolute;
     left: 9px;
     top: 15px;
-    width: 68px;
+    width: 85px;
 }
 .pd-flag{
     position: absolute;
     right: 9px;
     top: 14px;
-    width: 60px;
+    width: 80px;
 }
 .pd-rank-label{
     font-size: 14px;
@@ -339,6 +339,24 @@ a.btn-know-more:hover{
     .t20ranking{
         bottom: 30px;
     }
+    .pd-flag{
+        width: 40px;
+    }
+    .pd-lgrank-logo{
+        width: 60px;
+    }
+    .pd-runs{
+        font-size: 35px;
+    }
+    .pd-rank-number{
+        font-size: 30px;
+    }
+    .player-detail-col9{
+        padding: 23px 0;
+    }
+    .player-name{
+        font-size: 22px;
+    }
 }
 @media(max-width: 767px){
     .player-detail-scroll{
@@ -346,5 +364,50 @@ a.btn-know-more:hover{
     }
     .t20ranking{
         bottom: 30px;
+    }
+    .pd-flag{
+        width: 40px;
+    }
+    .pd-lgrank-logo{
+        width: 60px;
+    }
+    .pd-runs{
+        font-size: 35px;
+    }
+    .pd-rank-number{
+        font-size: 30px;
+    }
+    .player-detail-col9{
+        padding: 23px 0;
+    }
+    .player-name{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 480px){
+    .player-detail-scroll{
+        height: 276px;
+    }
+    .t20ranking{
+        bottom: 30px;
+    }
+    .pd-flag{
+        width: 40px;
+    }
+    .pd-lgrank-logo{
+        width: 60px;
+    }
+    .pd-runs{
+        font-size: 35px;
+    }
+    .pd-rank-number{
+        font-size: 30px;
+    }
+    .player-detail-col9{
+        padding: 23px 0;
+    }
+    .player-name{
+        font-size: 22px;
     }
 }
