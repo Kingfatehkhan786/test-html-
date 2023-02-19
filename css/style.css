@@ -84,7 +84,8 @@ a.btn-read-more:hover{
 .batter_list img{max-width: 100px;background:#fff;}
 .batter_list h2{font-size: 15px;}
 .yellow_bg{background: var(--yellow);}
-.yellow_bg:after{content: ''; background: url(../images/yellow_dots.png) no-repeat;width: 100%;height: 100%;position: absolute;right: 0;top: 0;background-position: 100%;}
+.yellow_bg:after{content: ''; background: url(../images/yellow_dots.png) no-repeat;position: absolute;width: 100%;height: 100%;right: 0;top: 0;background-position: 100%;}
+/* position: absolute; */
 
 
 .yellow_bg_scroll .card{border-radius: 25px;}
